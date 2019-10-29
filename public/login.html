@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href=login.css>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+		<script src="validacija.js"></script>
+	</head>
+	<body>
+	<div id="login">
+		<form name="forma" action="#">
+			<label><b>username</b></label>
+			<input type="text" name="username">
+			<br>
+			<label><b>password</b></label>
+			<input type="password" name="password" id="pass" onsubmit="return emina()">
+			<div id="mojDivPoruke"></div>
+			<br> <br>
+			<button type="submit" name="login"><b>Login</b></button> 
+		</form>
+	</div>
+	<script src="login.js"></script>
+	</body>
+</html>

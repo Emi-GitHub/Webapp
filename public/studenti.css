@@ -1,0 +1,205 @@
+@media only screen and (min-width: 601px){
+	*{
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	#glavni{
+		display: table;
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+	}
+	#side, #glavniSadrzaj{
+		display:table-cell;
+	}
+	div{
+		width:100%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	/*HEADER*/
+	h1{
+		color: #264d73;
+		font-size: 180%;
+		float: right;
+		padding-right:15px;
+	}
+	#logo{
+		float: left;
+	}
+	#meni{
+		padding-bottom:1%;
+		clear: both;
+	}
+	#header{
+		background-color: #9fdfbf;
+	}
+	.slika{
+		width: 5%;
+	}
+	.lista-meni{
+		display: inline-block;
+		padding-right:4%;
+	}
+	/*SREDINA*/
+	#side{
+		width: 35%;
+		background-color: lavender;
+		box-sizing: border-box;
+		padding-bottom: 35%;
+	}
+	h3{
+		margin-left: 23%;
+		margin-bottom: 10%;
+	}
+	.lista-godine{
+		height:15em;
+		width: 10em;
+		margin-left:16%;
+		margin-right:30%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+	}
+	#glavniSadrzaj{
+		width: 65%;
+		box-sizing: border-box;
+		padding-bottom: 12%;
+		background: url('hhh.jpg') no-repeat center center fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size: cover;
+	}
+	table,th,td{
+		border: 2px solid black;
+		border-collapse: collapse; 
+    } 
+	table{
+		width: 80%;
+		margin: 30px auto;
+		table-layout: auto;
+	}
+	td,th{
+		height: 50px;
+	}
+	th{
+		background-color:lavender;
+	}
+	tr{
+		margin-left:10%;
+	}
+	/*FOOTER*/
+	#footer{
+		background-color: #9fdfbf;
+		padding-bottom:1%;
+		padding-top:1%;
+	}
+	h6{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 600px){
+	*{
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	#glavni{ 
+		display: table;
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+	}
+	#side, #glavniSadrzaj{
+		 display:table-row;
+	}
+	div{
+		width:100%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	/*HEADER*/
+	h1{
+		position: absolute;
+		padding-left:1%;
+		top: 17%;
+		color: #264d73;
+		font-size: 180%;
+	}
+	#logo{
+		float: left;
+	}
+	.slika{
+		width: 5%;
+	}
+	#header{
+		background-color: #9fdfbf; 
+		box-sizing: border-box;
+		padding-bottom: 5%;
+	}
+	#meni{
+		padding-bottom:10%;
+	}
+	.lista-meni{
+		display: inline-block;
+		padding-right:4%;
+	}
+	/*SREDINA*/
+	#side{
+		width: 35%;
+		background-color: lavender;
+		box-sizing: border-box;
+		padding-bottom: 10%;
+	}
+	h3{
+		margin-left: 28%;
+		margin-bottom: 10%;
+	}
+	.lista-godine{
+		height:15em;
+		width: 10em;
+		margin-left:25%;
+		margin-right:30%;
+		margin-bottom:10%;
+		margin-top: 3%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+		list-style-type:none;
+	}
+	#glavniSadrzaj{
+		width: 65%;
+		box-sizing: border-box;
+		padding-bottom: 10%;
+		background: url('hhh.jpg') no-repeat center center fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size: cover;
+	}
+	table,th,td{
+		border: 1px solid black;
+		border-collapse: collapse; 
+	} 
+	table{
+		width: 80%;
+		margin: 30px auto;
+		table-layout: auto;
+	}
+	td,th{
+		height: 50px;
+	}
+	th{
+		background-color:lavender;
+	}
+	tr{
+		margin-left:10%;
+	}
+	/*FOOTER*/
+	#footer{
+		background-color: #9fdfbf;
+		padding-bottom:1%;
+		padding-top:1%;
+	}
+	h6{
+		text-align: center;
+	}
+}

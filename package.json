@@ -1,0 +1,26 @@
+{
+  "name": "wt2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://emehic3@bitbucket.org/emehic3/wt18em17706.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/emehic3/wt18em17706#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.13.2",
+    "xml2js": "^0.4.19"
+  }
+}
