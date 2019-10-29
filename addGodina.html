@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Dodavanje godine</title>
+		<link rel="stylesheet" type="text/css" href=addGodina.css>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<script src="validacija.js"></script>
+	</head>
+	<body>
+	<!--HEADER-->
+	<div id="header">
+		<div id="logo">
+		<h1>Dodavanje godine</h1>
+			<img src="logoo.png" alt="logo" class="slika" >
+		</div>
+		<div id="meni">
+			<ul>
+			<li class="lista-meni"><a href="studenti.html">Pregled studenata</a></li>
+			<li class="lista-meni"><a href="zadaci.html">Pregled godina</a></li>
+			<li class="lista-meni"><a href="commiti.html">Pregled vježbi</a></li>
+			<li class="lista-meni"><a href="addZadatak.html">Dodavanje zadataka</a></li>
+			<li class="lista-meni"><a href="addVjezba.html">Dodavanje vježbi</a></li>
+			<li class="lista-meni"><a href="addStudent.html">Dodavanje studenata</a></li>
+			<li class="lista-meni"><a href="addGodina.html">Dodavanje godine</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--SREDINA-->
+	<div id="glavniSadrzaj">
+		<div id="side">
+			<h2>Unos godine:</h2> <br>
+			<form action="#">
+				<label>Naziv godine</label> <br>
+				<input type="text" name="naziv" id="addG1" onsubmit="return emina1()" required> <br> <br>
+				<div id="mojDivPoruke1"></div>
+				<label>Naziv repozitorija vježbe</label> <br>
+				<input type="text" name="rvjezbe" id="addG2" onsubmit="return emina2()" required> <br> <br>
+				<div id="mojDivPoruke2"></div>
+				<label>Naziv repozitorija spirale</label> <br>
+				<input type="text" name="rspiral" id="addG3" onsubmit="return emina3()" required> <br> <br>
+				<div id="mojDivPoruke3"></div>
+				<button type="submit" name="submit" >Unesi</button>
+				<button type="submit" name="submit" class="ponisti">Ponisti</button>
+	        </form> 
+		</div>
+		<div id="godina"> 
+			<p>2015/16 </p> <br>
+			<b>Broj studenata:</b> 90<br>
+			<b>Broj vježbi:</b> 10<br>
+			<b>Broj spirala:</b> 4<br>
+		</div>
+		<div id="godina"> 
+			<p>2016/17 </p> <br>
+			<b>Broj studenata:</b> 90<br>
+			<b>Broj vježbi:</b> 10<br>
+			<b>Broj spirala:</b> 4<br>
+		</div>
+		<div id="godina"> 
+			<br> <br> <br> <br> <br>
+		</div>
+		<div id="godina"> 
+			<br> <br> <br> <br> <br>
+		</div>
+	</div>
+	<!--FOOTER-->
+	<div id="footer">
+		<h6>Web tehnologije 2018/19</h6>
+	</div>
+	
+	<script src="addGodina.js"></script>
+	</body>
+</html>

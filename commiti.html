@@ -1,0 +1,55 @@
+<!doctype HTML>
+<HTML>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="commiti.css">
+		<title></title>
+	</head>
+		<body> 
+		
+		<!--HEADER-->
+	<div id="header">
+		<div id="logo">
+			<h1>Pregled commita</h1>
+			<img src="logoo.png" alt="logo" class="slika">
+		</div>
+		<div id="meni">
+			<ul>
+			<li class="lista-meni"><a href="studenti.html">Pregled studenata</a></li>
+			<li class="lista-meni"><a href="zadaci.html">Pregled godina</a></li>
+			<li class="lista-meni"><a href="commiti.html">Pregled vježbi</a></li>
+			<li class="lista-meni"><a href="addZadatak.html">Dodavanje zadataka</a></li>
+			<li class="lista-meni"><a href="addVjezba.html">Dodavanje vježbi</a></li>
+			<li class="lista-meni"><a href="addStudent.html">Dodavanje studenata</a></li>
+			<li class="lista-meni"><a href="addGodina.html">Dodavanje godine</a></li>
+			</ul>
+		</div>
+	</div>
+	
+		<p><b> Unesi broj zadataka:</b> </p>
+		Redni broj zadatka: <input type="number" name="broj" id="zadaciKonstruktor"> <br> <br>
+		<button onclick="dodajTabelu()" value="New Table">Kreiraj tabelu</button>
+		<p><b> Ukoliko želiš da dodaš commit:</b> </p>
+		Redni broj zadatka: <input type="number" name="broj" id="broj"> <br> <br>
+		Link: <input type="text" name="link" id="link"> <br> <br>
+		<button onclick="dodajCommit()">Dodaj commit</button> <br> <br>
+		<p><b> Ukoliko želiš da edituješ commit:</b> </p>
+		Redni broj zadatka: <input type="number" name="broj" id="brojEdit"> <br> <br>
+		Redni broj commita: <input type="number" name="broj" id="brojEdit1"> <br> <br>
+		Link: <input type="text" name="link" id="linkEdit"> <br> <br>
+		<button onclick="editujCommit()">Edituj commit</button> <br> <br>
+		<p><b> Ukoliko želiš da obrišeš commit:</b> </p>
+		Redni broj zadatka: <input type="number" name="broj" id="brojDelete"> <br> <br>
+		Redni broj commita: <input type="number" name="broj" id="brojDelete1"> <br> <br>
+		<button onclick="obrisiCommit()">Obriši commit</button> 
+		<div id="addtable"></div>
+		<!--FOOTER-->
+		
+	<div id="footer">
+		<h6>Web tehnologije 2018/19</h6>
+	</div>
+	
+		<script src="commitiTabela.js"></script>
+		<script src="commit.js"></script>
+	</body>
+</HTML>

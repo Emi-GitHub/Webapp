@@ -1,0 +1,281 @@
+@media only screen and (min-width: 601px){
+	*{
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	#glavni{
+		display: table;
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+	}
+	.cetvrtina, .polovina{
+		display:table-cell;
+		font-size:130%;
+	}
+	div{
+		width:100%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	/*HEADER*/
+	h1{
+		color: #264d73; 
+		font-size: 180%;
+		float: right;
+		padding-right:15px;
+	}
+	#logo{
+		float: left;
+	}
+	#header{
+		background-color: #9fdfbf; 
+		box-sizing: border-box;
+	}
+	#meni{
+		padding-bottom:1%;
+		clear: both;
+	}
+	.slika{
+		width: 5%;
+	}
+	.lista-meni{
+		display: inline-block;
+		padding-right:4%;
+	}
+	/*SREDINA*/
+	.cetvrtina{
+		background-color: lavender;
+		width: 25%;
+		box-sizing: border-box;
+		padding-bottom: 68%;
+	}
+	h3{
+		padding-left:15%;
+		padding-bottom:2%;
+	}
+	#godina{
+		height:15em;
+		width: 10em;
+		margin-left:4%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+		list-style-type:none;
+		font-size:80%;
+		margin-top:10%;
+	}
+	#imena{
+		height:15em;
+		width: 12em;
+		margin-left:7%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+		list-style-type:none;
+		font-size:80%;
+		margin-top: 10%;
+	}
+	input{
+		background-color: white;
+		border: 1px solid gray;
+		border-radius: 4px;
+		padding-top:2%;
+		padding-bottom:2%;
+		margin-left:10%;
+		margin-top:10%;
+	}
+	button{
+		background-color: white;
+		border: 1px solid gray;
+		border-radius: 4px;
+		padding: 5px 63px;
+		margin-left:10%;
+		margin-top:5%;
+	}
+	.polovina{
+		background-color:  lavender;
+		width: 50%;
+		box-sizing: border-box;
+	}
+	.folder{
+		width: 69%; 
+		border: 5px outset white;
+		box-sizing: border-box; 
+		padding-bottom:75%;
+		margin-top:7%;
+		margin-left:15%;
+		background: url('hhh.jpg') no-repeat center center fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size: cover;
+	}
+	.item{
+		width: 21%; 
+		font-size:80%;
+		border: 2px solid lightslategray;
+		background-color: lightcyan;
+		box-sizing: border-box; 
+		float: left;
+		padding-bottom:10%;
+		padding-top:11%;
+		margin-left:11%;
+		margin-right:-3%;
+		margin-top: 8%;
+		margin-bottom:-3%;
+	}
+	p{
+		text-align:center;
+	}
+	/*FOOTER*/
+	#footer{
+		background-color: #9fdfbf;
+		padding-bottom:1%;
+		padding-top:1%;
+	}
+	h6{
+		text-align:center;
+	}
+}
+@media only screen and (max-width: 600px){
+	*{
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	#glavni{
+		display: table;
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+	}
+	.cetvrtina, .polovina{
+		display:table-row;
+		font-size:130%;
+	}
+	div{
+		width:100%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	/*HEADER*/
+	h1{
+		position: absolute;
+		padding-left:1%;
+		top: 17%;
+		color: #264d73;
+		font-size: 180%;
+	}
+	#logo{
+		float: left;
+	}
+	.slika{
+		width: 5%;
+	}
+	#header{
+		background-color: #9fdfbf; 
+		box-sizing: border-box;
+		padding-bottom: 5%;
+	}
+	#meni{
+		padding-bottom:10%;
+	}
+	.lista-meni{
+		display: inline-block;
+		padding-right:4%;
+	}
+	/*SREDINA*/
+	.cetvrtina{
+		background-color: lavender;
+		width: 25%;
+		box-sizing: border-box;
+		padding-bottom: 68%;
+	}
+	h3{
+		padding-left:44%;
+		padding-bottom:3%;
+		padding-top:4%
+	}
+	#godina{
+		height:15em;
+		width: 10em;
+		margin-left:39%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+		list-style-type:none;
+		font-size:80%;
+		margin-top: 10%;
+	}
+	#imena{
+		height:15em;
+		width: 12em;
+		margin-left:39%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+		list-style-type:none;
+		font-size:80%;
+		margin-top: 10%;
+	}
+	input{
+		background-color: white;
+		border-radius: 4px;
+		border: 1px solid gray;
+		padding-top:1%;
+		padding-bottom:1%;
+		margin-left:39%;
+	}
+	button{
+		background-color: white;
+		border-radius: 4px;
+		border: 1px solid gray;
+		padding: 5px 63px;
+		margin-top:5%;
+		margin-left:39%;
+	}
+	.polovina{
+		background-color: lavender;
+		width: 50%;
+		box-sizing: border-box;
+	}
+	.folder{
+		width: 69%; 
+		border: 5px outset white;
+		box-sizing: border-box; 
+		padding-bottom:57%;
+		margin-top:7%;
+		margin-left:15%;
+		margin-bottom:12%;
+		background: url('hhh.jpg') no-repeat center center fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size: cover;
+	}
+	.item{
+		width: 21%; 
+		border: 2px solid lightslategray;
+		background-color: lightcyan;
+		box-sizing: border-box; 
+		float: left;
+		padding-bottom:0%;
+		margin-left:11%;
+		margin-right:-3%;
+		margin-top: 8%;
+		margin-bottom:-3%;
+		font-size:65%;
+		padding-top:11%;
+	}
+	p{
+		text-align:center;
+		margin-bottom:35%;
+	}
+	/*FOOTER*/
+	#footer{
+		background-color: #9fdfbf;
+		padding-bottom:1%;
+		padding-top:1%;
+	}
+	h6	{
+		text-align:center;
+	}
+}

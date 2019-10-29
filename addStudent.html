@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Dodavanje studenta</title>
+		<link rel="stylesheet" type="text/css" href=addStudent.css>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<script src="validacija.js"></script>
+	</head>
+	<body>
+	<!--HEADER-->
+	<div id="header">
+		<div id="logo">
+			<h1>Dodavanje studenta</h1>
+			<img src="logoo.png" alt="logo" class="slika" >
+		</div>
+		
+		<div id="meni">
+			<ul>
+			<li class="lista-meni"><a href="studenti.html">Pregled studenata</a></li>
+			<li class="lista-meni"><a href="zadaci.html">Pregled godina</a></li>
+			<li class="lista-meni"><a href="commiti.html">Pregled vježbi</a></li>
+			<li class="lista-meni"><a href="addZadatak.html">Dodavanje zadataka</a></li>
+			<li class="lista-meni"><a href="addVjezba.html">Dodavanje vježbi</a></li>
+			<li class="lista-meni"><a href="addStudent.html">Dodavanje studenata</a></li>
+			<li class="lista-meni"><a href="addGodina.html">Dodavanje godine</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--GLAVNI SADRZAJ-->
+	<div id="glavniSadrzaj">
+		<div class="sredina">
+			<form name="fPojedinacni" action="#">
+				<h2>Pojedinačni unos</h2>
+				<label>Godina</label>
+				<br>
+				<select name="godine" class="odabir">
+				  <option value="god">2014/15</option>
+				  <option value="god">2015/16</option>
+				  <option value="god">2016/17</option>
+				  <option value="god">2017/18</option>
+				  <option value="god">2018/19</option>
+				</select> 
+				<label>Ime i prezime</label> <br>	
+				<input type="text" name="ime" class="nazivvj" id="addS" onsubmit="return emina1()" required> <br> <br>
+				<div id="mojDivPoruke1"></div>
+				<label>Index</label> <br>	
+				<input type="number" name="index" class="nazivvj" id="addS1" onsubmit="return emina2()" required> <br> <br>
+				<div id="mojDivPoruke2"></div>
+				<label>Email</label> <br>	
+				<input type="email" name="email" class="nazivvj"  required> <br> <br>
+				<button type="submit" name="submit">Unesi</button>
+			</form>
+		</div>
+		<div class="sredina">
+			<form name=fMasovni action="#">
+				<h2>Masovni unos</h2> 
+				<label>Godina</label>
+				<br>
+				<select name="godina" class="odabir">
+				  <option value="god">2014/15</option>
+				  <option value="god">2015/16</option>
+				  <option value="god">2016/17</option>
+				  <option value="god">2017/18</option>
+				  <option value="god">2018/19</option>
+				</select> 
+				<br> <br>
+				<label>CSV fajl</label> <br>
+				<input type="file" name="csv lista">
+				<br> <br>
+				<button type="submit" name="submit">Unesi</button>
+			</form>
+		</div>
+	</div>
+	<!--FOOTER-->
+	<div id="footer">
+		<h6>Web tehnologije 2018/19</h6>
+	</div>
+	<script src="addStudent.js"></script>
+	</body>
+</html>
