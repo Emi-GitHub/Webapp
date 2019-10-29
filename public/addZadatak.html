@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Dodavanje zadatka</title>
+		<link rel="stylesheet" href="addZadatak.css" media="screen" charset="utf-8" >
+		<!--<link rel="stylesheet" type="text/css" href=addZadatak.css>-->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<script src="validacija.js"></script>
+	</head>
+	<body>
+	<!--HEADER-->
+	<div id="header">
+		<div id="logo">
+			<h1>Dodavanje zadatka</h1>
+			<img src="logoo.png" alt="logo" class="slika" >
+		</div>
+		<div id="meni">
+			<ul>
+			<li class="lista-meni"><a href="studenti.html">Pregled studenata</a></li>
+			<li class="lista-meni"><a href="zadaci.html">Pregled godina</a></li>
+			<li class="lista-meni"><a href="commiti.html">Pregled vježbi</a></li>
+			<li class="lista-meni"><a href="addZadatak.html">Dodavanje zadataka</a></li>
+			<li class="lista-meni"><a href="addVjezba.html">Dodavanje vježbi</a></li>
+			<li class="lista-meni"><a href="addStudent.html">Dodavanje studenata</a></li>
+			<li class="lista-meni"><a href="addGodina.html">Dodavanje godine</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--GLAVNI DIO-->
+	<div id="glavniSadrzaj">
+		<div class="sredina">
+			<h2>Novi zadatak</h2> <br>
+			<form action = "http://localhost:8080/addZadatak" method = "POST" enctype="multipart/form-data">
+				<label>Naziv zadatka</label> <br>
+				<input type="text" name="naziv" class="nazivzad" id="addZ" onsubmit="return emina()" required> <br> <br>
+				<div id="mojDivPoruke"></div>
+				<label>Tekst postavke</label> <br>
+				<input type="file" name="postavka" required> <br> <br>
+				<button type="submit" name="submit" >Dodaj</button>
+			</form>
+		</div>
+	</div>
+	<!--FOOTER-->
+	<div id="footer">
+		<h6>Web tehnologije 2018/19</h6>
+	</div>
+	<script src="addZadatak.js"></script>
+	</body>
+</html>

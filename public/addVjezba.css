@@ -1,0 +1,288 @@
+@media only screen and (min-width: 601px){
+	#glavniSadrzaj{
+		display: table;
+		font-family: 'Lato', sans-serif;
+	}
+   *{
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	body{
+		margin: 0;
+		background-color: #c6ecd9;
+	}
+	div{
+		width:100%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	/*HEADER*/
+	h1{
+		color: #264d73;
+		font-family: Gabriela; 
+		font-size: 180%;
+		float: right;
+		padding-right:15px;
+	}
+	#logo{
+		float: left;
+	}
+	.slika{
+		width: 5%;
+	}
+	#header{
+		background-color:  #9fdfbf;
+		box-sizing: border-box;
+	}
+	#meni{
+		padding-bottom:1%;
+		clear: both;
+	}
+	.lista-meni{
+		display: inline-block;
+		padding-right:4%;
+	}
+	/*SREDINA*/
+	#glavniSadrzaj{
+		background-color: lavender;
+		width: 85%;
+		box-sizing: border-box;
+		padding-bottom: 20%;
+	}
+	h2{
+		text-align:center;
+		margin-bottom:10%;
+	}
+	label{
+		padding-left:25%;
+		font-size:110%;
+	}
+	input{
+		background-color: white;
+		border-radius: 4px;
+		border: 1px solid gray;
+	}
+	.sredina{
+		width: 80%; 
+		border: 5px outset papayawhip;
+		box-sizing: border-box; 
+		padding-top:5%;
+		margin-top: 60px;
+		clear:both;
+		background: url('hhh.jpg') no-repeat center center fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size: cover;
+	}
+	.dugme{
+		background-color: white;
+		border-radius: 4px;
+		border: 1px solid gray;
+		width: 97%;
+	}
+	.dugme-gore{
+		background-color: white;
+		margin-left: 60%;
+		border-radius: 4px;
+		border: 1px solid gray;
+		padding: 8px 33px;
+		margin-bottom: 5%;
+		margin-top: -35px;
+		margin-right: 3px;
+	}
+	.odabir{
+		padding-left:2%;
+		padding-right:33%;
+		padding-top: 1%;
+		margin-left:24%;
+		margin-bottom:4%;
+	}
+	.nazivvj{
+		margin-left:25%;
+		padding-bottom:1%;
+		padding-top:1%;
+		padding-right: 10%;
+	}
+	.pagewrap{
+        width:100%;
+        clear: both;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+		margin-bottom:15px;
+	}
+	.grupa{
+		display:flex;
+    }
+    .grupa div {
+        width:50%;
+    }
+	.lista-godine{
+		height:15em;
+		width: 10em;
+		margin-left:30%;
+		margin-right:30%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+	}
+	/*FOOTER*/
+	#footer{
+		background-color:  #9fdfbf;
+		padding-bottom:1%;
+		padding-top:1%;
+	}
+	h6{
+		text-align:center;
+	}
+	
+}
+
+@media only screen and (max-width: 600px){
+	#glavniadrzaj{
+		display: table;
+		width: 100%;
+		font-family: 'Lato', sans-serif;
+	}
+	*{
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	body{
+		margin: 0;
+		background-color:#c6ecd9;
+	}
+	div{
+		width:100%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	/*HEADER*/
+	h1{
+		position: absolute;
+		padding-left:1%;
+		top: 17%;
+		color: #264d73;
+		font-family: Gabriela; 
+		font-size: 160%;
+	}
+	#logo{
+		float: left;
+	}
+	.slika{
+		width: 5%;
+	}
+	#header{
+		background-color:  #9fdfbf; 
+		box-sizing: border-box;
+		padding-bottom: 5%;
+	}
+	#meni{
+		padding-bottom:10%;
+	}
+	.lista-meni{
+		display: inline-block;
+		padding-right:4%;
+	}
+	/*SREDINA*/
+	#glavniSadrzaj{
+		background-color: lavender;
+		width: 100%;
+		box-sizing: border-box;
+		padding-bottom: 20%;
+		padding-top:1%;
+	}
+	h2{
+		text-align:center;
+		margin-bottom:10%;
+	}
+	label{
+		padding-left:20%;
+		font-size:110%;
+	}
+	textarea{
+		margin-top:8%;
+		margin-left:25%;
+		font-size: 120%;
+	}
+	input{
+		background-color: white;
+		border-radius: 4px;
+		border: 1px solid gray;
+	}
+	.sredina{
+		width: 80%; 
+		border: 5px outset papayawhip;
+		box-sizing: border-box; 
+		padding-top:5%;
+		margin-top: 60px;
+		clear:both;
+		background: url('hhh.jpg') no-repeat center center fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size: cover;
+	}
+	.dugme{
+		background-color: white;
+		border-radius: 4px;
+		border: 1px solid gray;
+		width: 97%;
+	}
+	.dugme-gore{
+		background-color: white;
+		margin-left: 60%;
+		border-radius: 4px;
+		border: 1px solid gray;
+		padding: 8px 21px;
+		margin-bottom: 5%;
+		margin-top: -35px;
+		margin-right: 3px;
+	}
+	.odabir{
+		padding-left:2%;
+		padding-right:33%;
+		padding-top: 1%;
+		margin-left:24%;
+		margin-bottom:4%;
+	}
+	.nazivvj{
+		margin-left:25%;
+		padding-bottom:1%;
+		padding-top:1%;
+		padding-right: 10%;
+	}
+	.pagewrap{
+        width:100%;
+        clear: both;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+		margin-bottom:15px;
+	}
+	.grupa{
+		display:flex;
+    }
+    .grupa div {
+        width:50%;
+    }
+	.lista-godine{
+		height:15em;
+		width: 10em;
+		margin-left:20%;
+		margin-right:30%;
+		overflow:hidden;
+		overflow-y:scroll;
+		background-color:white;
+	}
+	/*FOOTER*/
+	#footer{
+		background-color:  #9fdfbf;
+		padding-bottom:1%;
+		padding-top:1%;
+	}
+	h6	{
+		text-align:center;
+	}
+}
