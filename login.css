@@ -1,0 +1,45 @@
+body{
+	background: url('f.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size: cover;
+	font-family: 'Indie Flower', cursive;
+	font-size: 100%;
+}
+#login{
+	background-color:  #d9b3ff;
+	opacity: 0.8;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+form{
+	border: 2px dotted black;
+    border-radius: 2px;
+    width: 300px;
+    height: 150px;
+}
+label{
+	background-color: transparent;	
+	margin-bottom: 15%;
+	padding-left:5%;
+}
+input{
+	background-color: #e6ccff;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin-left:3%;
+	margin-top:3%;
+}
+button{
+	background-color: #e6ccff;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin-left: 35%;
+	padding: 4px 30px;
+}
+
